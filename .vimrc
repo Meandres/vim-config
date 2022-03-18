@@ -15,6 +15,9 @@ set wildmenu
 set wildmode=list:longest
 set wildignore=*.docx,*.jpg,*.png,*.gif,*.pdf,*.odt,*.exe,*.img
 
+
 so ~/.vim/plugins.vim
 
+
 nnoremap <C-t> :NERDTree<CR>
+let g:ycm_autoclose_preview_window_after_insertion = 1
